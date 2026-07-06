@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Twitter } from 'lucide-react';
+import { Globe, Mail, Phone, MessageCircle } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -14,16 +14,16 @@ const Footer = () => {
             </p>
             <div className="flex gap-4">
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-[#d4a373] hover:text-white transition-colors">
-                <Facebook size={18} />
+                <Globe size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-[#d4a373] hover:text-white transition-colors">
-                <Instagram size={18} />
+                <MessageCircle size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-[#d4a373] hover:text-white transition-colors">
-                <Linkedin size={18} />
+                <Mail size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-stone-800 flex items-center justify-center hover:bg-[#d4a373] hover:text-white transition-colors">
-                <Twitter size={18} />
+                <Phone size={18} />
               </a>
             </div>
           </div>
